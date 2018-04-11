@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OTRoute_Example' do
+  pod 'OTRoute', :path => '../'
+
+  target 'OTRoute_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

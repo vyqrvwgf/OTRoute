@@ -1,0 +1,16 @@
+PODS:
+  - OTRoute (0.1.0)
+
+DEPENDENCIES:
+  - OTRoute (from `../`)
+
+EXTERNAL SOURCES:
+  OTRoute:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OTRoute: ea5cd128d0c12b3dec4061383eefc0995999ebea
+
+PODFILE CHECKSUM: 92a7748848c6384d7e25e1f3dac788e57fd23c4a
+
+COCOAPODS: 1.3.1
