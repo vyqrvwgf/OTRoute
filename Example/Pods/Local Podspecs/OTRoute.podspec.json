@@ -1,9 +1,9 @@
 {
   "name": "OTRoute",
   "version": "0.1.0",
-  "summary": "A short description of OTRoute.",
+  "summary": "OTRoute.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sanlazy/OTRoute",
+  "homepage": "https://github.com/vyqrvwgf/OTRoute",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "sanlazy": "hanlei@meiqia.com"
   },
   "source": {
-    "git": "https://github.com/sanlazy/OTRoute.git",
+    "git": "https://github.com/vyqrvwgf/OTRoute.git",
     "tag": "0.1.0"
   },
   "platforms": {
