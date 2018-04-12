@@ -7,61 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01823F31793A5E7E5C67F5882A0BB298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1BE54B413F8273A599DEA15EAC4E09E9 /* OTRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4A5082ECA7F0EDA49030B7FDF452AE /* OTRoute-dummy.m */; };
-		560C3EC649519F0A2363A298E778622E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6DA1D458B27ACF716B334050BE46C0F4 /* Pods-OTRoute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A5B17556B1EF5D4BB0F42EAB24BC96 /* Pods-OTRoute_Example-dummy.m */; };
+		179F2B40BE1538CC8A5121DDB1F04222 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237FE654478EF7D83DFB6D2BE59A9A3 /* Foundation.framework */; };
+		2CE20F296597A83FFA82C2AA8D3C3300 /* OTExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D681EB248537B8235A61430F3D5EE39 /* OTExtension.framework */; };
+		3D29DCF0ABC1C73F85EBFDACBE9F2472 /* OTMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CF1248F68B692D28A0A048B02533D0 /* OTMacro.framework */; };
+		4D92D1D903347EBCC69A50837B7ABF3F /* OTColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F22CDAA111822326ABBCF423570A791 /* OTColorExtension.swift */; };
+		5F8DBE033737079D7268E1E84C9CCF6D /* OTEn.strings in Sources */ = {isa = PBXBuildFile; fileRef = FF1010406016E4E962AC2F92503264CB /* OTEn.strings */; };
+		6AD394B61650EECB7FC15B09DF89DC65 /* OTRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1132809E35572267551CEDD2354C32 /* OTRoute-dummy.m */; };
+		6CC0101412983939855C032FE1497736 /* OTMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CF1248F68B692D28A0A048B02533D0 /* OTMacro.framework */; };
+		7442A91A55E82A427ACAC8D12D57C20C /* OTExtensionLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC6B88415231592368CC8E2A2F21604 /* OTExtensionLocation.swift */; };
 		7BC1E706FBDECE1075BD95A59DD38F82 /* Pods-OTRoute_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B328CB4BE2B3E49C6B8EF6E07A7568FC /* Pods-OTRoute_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BD05C454891F83847DC1D6E55D6F617 /* language.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36D6BD3B9FC248584E16655481EB52BA /* language.bundle */; };
+		80ADEE6A01BEF97F3B882438234B9F18 /* OTExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9466AAAEEDB364EEC5D7187FCAA093BF /* OTExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85B1F0F8FA508AE0C8B0AA1F479F7865 /* OTHans.strings in Sources */ = {isa = PBXBuildFile; fileRef = AAFDCA02346772C7499BFB4C6DDAA2C6 /* OTHans.strings */; };
+		8CDAE47932B377D9602241F6F15313B0 /* Root.strings in Sources */ = {isa = PBXBuildFile; fileRef = 04B799B5EB7C628EA8FD6E3CEA3766E0 /* Root.strings */; };
 		90C71BA8C96D65CC782C075411C5FB90 /* Pods-OTRoute_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E6AFCEAF8BA205AAA9D9B8113F6A85 /* Pods-OTRoute_Tests-dummy.m */; };
-		CDBD99CB2FF600EFF72ECA0E9DB56074 /* OTRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EFD107FE095A622A6DB3A83212AAAC /* OTRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D030837E4E86E2E4534131ABB366245E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D6043B54479FAF114551DFBA819951ED /* Pods-OTRoute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9E89763AB39597BC9B19193D281DFD /* Pods-OTRoute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFF0C9E9005824DAAC454A360D69BCAE /* OTRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F3C4C345668220C1A980AAC6103DBC /* OTRoute.swift */; };
+		9EDED242AC71EB7A7A612DEF4F3286F6 /* Pods-OTRoute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9E89763AB39597BC9B19193D281DFD /* Pods-OTRoute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE557F509C3B45752A60FA36E7BA28B /* OTRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B3012E1C40830C9863FCB43006922F /* OTRoute.swift */; };
+		BEE114055696619716D52E86006C9709 /* Pods-OTRoute_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A5B17556B1EF5D4BB0F42EAB24BC96 /* Pods-OTRoute_Example-dummy.m */; };
+		C856C634901973FCCB857F994F9A578C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237FE654478EF7D83DFB6D2BE59A9A3 /* Foundation.framework */; };
+		D030837E4E86E2E4534131ABB366245E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237FE654478EF7D83DFB6D2BE59A9A3 /* Foundation.framework */; };
+		D14A1F563058C63E087D50821A16BC52 /* OTMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581FFD29B58B9031DE1C9E2E39E91EF5 /* OTMacro.swift */; };
+		D66228DC2593E204D4070F77D17E9C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237FE654478EF7D83DFB6D2BE59A9A3 /* Foundation.framework */; };
+		DDBBC77C53424ECA3A5E163EEF7B25AB /* OTMacro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC282418F144EEB5565D68992993C2E /* OTMacro-dummy.m */; };
+		DF0F7FF4A44ED5AF40F6C5FC9BEB490F /* OTExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F31A7BFDA140F048C9C4A0C80DBEB0AF /* OTExtension-dummy.m */; };
+		E648AB4F3F28DB99C5A8BF4F6D166518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237FE654478EF7D83DFB6D2BE59A9A3 /* Foundation.framework */; };
+		EB0411DB797E252A11C9584891736778 /* OTBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B32EB03E46BC0120487CB86F566FE /* OTBundleExtension.swift */; };
+		EDFCBF71CDFB522BD64AAE78562F9164 /* OTMacro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB613A2A2E664DCE20B28F642CBFAE5D /* OTMacro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF77B9BEF0FE51A2530C7B21DA7BE865 /* Root.plist in Sources */ = {isa = PBXBuildFile; fileRef = 6CDE679F1BB2EFA496BAF70D227A4680 /* Root.plist */; };
+		F4341908A45126FFBFBDD67786797672 /* OTExtension.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F1DFD3F6D209442B66198E908B5A240 /* OTExtension.bundle */; };
+		FF783B0587555F92600A72E88358EB62 /* OTRoute-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C140EBE6A5220314A67E9E684DE07E47 /* OTRoute-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		85A357904302D20E5EF934502754C0FD /* PBXContainerItemProxy */ = {
+		1E88489E6874076B4E087134B7EF0478 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 047B95229BFDA8992CF017920FC0DEC6;
+			remoteGlobalIDString = 6394D1D1AFA36514A47FEAA13CA045C3;
 			remoteInfo = OTRoute;
+		};
+		41311E8019786F177CEFD62091DB73AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB7EB2AC156F842D1A508B4CDCF6FBF;
+			remoteInfo = OTExtension;
+		};
+		6307AA969667583649A7996FE5570156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AAB91F5342A1C6DDD9B506038260CE;
+			remoteInfo = OTMacro;
+		};
+		752EF2C4215378E66BB5F6D1C5E490C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AAB91F5342A1C6DDD9B506038260CE;
+			remoteInfo = OTMacro;
+		};
+		94C24DE407ACC92FB905591B6DAF164B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60AC495818C0CB0FACA8A996A2EB89D3;
+			remoteInfo = "OTExtension-OTExtension";
+		};
+		9C3018EF55296F70E6BED3C877F67EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB7EB2AC156F842D1A508B4CDCF6FBF;
+			remoteInfo = OTExtension;
+		};
+		C7C78E09950FFE692FCF51F54737EF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AAB91F5342A1C6DDD9B506038260CE;
+			remoteInfo = OTMacro;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041C455BD9FF6B2A3D34115AEAF7393E /* Pods_OTRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06BEE76CD778CBDAEA277696B18E2408 /* OTRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4A5082ECA7F0EDA49030B7FDF452AE /* OTRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTRoute-dummy.m"; sourceTree = "<group>"; };
+		04B799B5EB7C628EA8FD6E3CEA3766E0 /* Root.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Root.strings; path = en.lproj/Root.strings; sourceTree = "<group>"; };
+		07CC04EFEC6E2C2138932DDE92FB48D9 /* OTMacro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTMacro.xcconfig; sourceTree = "<group>"; };
+		0AF344EC2339D6F7652377EE8E683DA9 /* OTRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTRoute-prefix.pch"; sourceTree = "<group>"; };
+		0CC282418F144EEB5565D68992993C2E /* OTMacro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTMacro-dummy.m"; sourceTree = "<group>"; };
 		0F9E89763AB39597BC9B19193D281DFD /* Pods-OTRoute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTRoute_Example-umbrella.h"; sourceTree = "<group>"; };
 		10C85AAD2167C8462A2B4F0C0C803C7B /* Pods-OTRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		13A52B4C19C5FA5B156F7BC7C2CCF150 /* OTMacro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-prefix.pch"; sourceTree = "<group>"; };
 		13BC0B805C9EF459D7B0D56F18C37907 /* Pods-OTRoute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTRoute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F1DFD3F6D209442B66198E908B5A240 /* OTExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OTExtension.bundle; path = OTExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E6AFCEAF8BA205AAA9D9B8113F6A85 /* Pods-OTRoute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTRoute_Tests-dummy.m"; sourceTree = "<group>"; };
+		2AD10BA46AC2697C4F25D847F17217EF /* OTExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTExtension.modulemap; sourceTree = "<group>"; };
+		2C20D63266C577AF1603A5F2CEFE0AD6 /* OTRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTRoute.modulemap; sourceTree = "<group>"; };
 		2C3F3303CFDE945A892F2849B3761250 /* Pods-OTRoute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OTRoute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2EF74868C9B35F8C66FCEBEA077B9CAF /* OTRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTRoute-prefix.pch"; sourceTree = "<group>"; };
+		30B3012E1C40830C9863FCB43006922F /* OTRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTRoute.swift; path = OTRoute/Classes/OTRoute.swift; sourceTree = "<group>"; };
+		36D6BD3B9FC248584E16655481EB52BA /* language.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = language.bundle; path = OTExtension/Classes/language.bundle; sourceTree = "<group>"; };
+		4237FE654478EF7D83DFB6D2BE59A9A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43917E280A8C96D400F8E6D56C888A69 /* Pods-OTRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTRoute_Tests.modulemap"; sourceTree = "<group>"; };
 		4855B6554843344FDCD1749A28BC1327 /* Pods-OTRoute_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTRoute_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		54F3C4C345668220C1A980AAC6103DBC /* OTRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTRoute.swift; path = OTRoute/Classes/OTRoute.swift; sourceTree = "<group>"; };
+		48FEB646EAEB6149AB5145B989F5A9AA /* Pods_OTRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTRoute_Tests.framework; path = "Pods-OTRoute_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1132809E35572267551CEDD2354C32 /* OTRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTRoute-dummy.m"; sourceTree = "<group>"; };
 		578B73E0F128E86CE21B447633F53A2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		581FFD29B58B9031DE1C9E2E39E91EF5 /* OTMacro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTMacro.swift; path = OTMacro/Classes/OTMacro.swift; sourceTree = "<group>"; };
 		5C101F8E836D0AE9069700B247882D43 /* Pods-OTRoute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OTRoute_Example.modulemap"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5F22CDAA111822326ABBCF423570A791 /* OTColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTColorExtension.swift; path = OTExtension/Classes/OTColorExtension.swift; sourceTree = "<group>"; };
+		637B7E0357E49155DA68316B6CFAC3F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDE679F1BB2EFA496BAF70D227A4680 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Root.plist; path = OTExtension/Classes/language.bundle/Root.plist; sourceTree = "<group>"; };
 		6E71DA2B1CF35D96E06F0947732B4C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82EFD107FE095A622A6DB3A83212AAAC /* OTRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTRoute-umbrella.h"; sourceTree = "<group>"; };
+		78CF1248F68B692D28A0A048B02533D0 /* OTMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8384C21C6F9B52E93F2B154EDC421CC1 /* Pods_OTRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OTRoute_Example.framework; path = "Pods-OTRoute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0523062AB9211C0C8AAEFD51B95ECC /* Pods-OTRoute_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTRoute_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D681EB248537B8235A61430F3D5EE39 /* OTExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9466AAAEEDB364EEC5D7187FCAA093BF /* OTExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-umbrella.h"; sourceTree = "<group>"; };
 		94D254BC56080B35E4236C1A7DF40973 /* Pods-OTRoute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTRoute_Example-frameworks.sh"; sourceTree = "<group>"; };
 		952DECAF5DAE8E054B42415B2C1669B2 /* Pods-OTRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9917A55A485C9F829C6895CE1275AA6D /* Pods-OTRoute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTRoute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9F9714D5447D1606A2053DAEDB7D74E8 /* Pods-OTRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A175D80712A28FDE4795EC61F310576B /* OTMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTMacro.framework; path = OTMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DF725AB18245A0EF3CC6BBD98716AE /* Pods-OTRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OTRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8130F734BF57175E36B401F3BF84DEA /* OTExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTExtension-prefix.pch"; sourceTree = "<group>"; };
+		AA787703557B2E465BC2279CA0121CA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC6B88415231592368CC8E2A2F21604 /* OTExtensionLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTExtensionLocation.swift; path = OTExtension/Classes/OTExtensionLocation.swift; sourceTree = "<group>"; };
+		AAFDCA02346772C7499BFB4C6DDAA2C6 /* OTHans.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = OTHans.strings; path = OTExtension/Classes/language.bundle/OTHans.strings; sourceTree = "<group>"; };
 		AB33B0E4EC3B352DABC655E76056DC4B /* Pods-OTRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OTRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2B4A28CCD65A8D828CD5281B2535E51 /* ResourceBundle-OTExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OTExtension-Info.plist"; sourceTree = "<group>"; };
 		B328CB4BE2B3E49C6B8EF6E07A7568FC /* Pods-OTRoute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OTRoute_Tests-umbrella.h"; sourceTree = "<group>"; };
-		BA33E5807E46B04D5C89DBCA497C0B2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B4BA7DF1DE869062ECCDA33298AAB5 /* OTMacro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTMacro.modulemap; sourceTree = "<group>"; };
+		BBE06EAA3F2747CEA37318424D1C79A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C140EBE6A5220314A67E9E684DE07E47 /* OTRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTRoute-umbrella.h"; sourceTree = "<group>"; };
 		C9A5B17556B1EF5D4BB0F42EAB24BC96 /* Pods-OTRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OTRoute_Example-dummy.m"; sourceTree = "<group>"; };
+		CCC3B881DA22B06DD42C5D7AD3753A6E /* OTExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTExtension.framework; path = OTExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82B32EB03E46BC0120487CB86F566FE /* OTBundleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTBundleExtension.swift; path = OTExtension/Classes/OTBundleExtension.swift; sourceTree = "<group>"; };
 		DCEEAD12300EC97AACF05DFD84A43EC0 /* Pods-OTRoute_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OTRoute_Example-resources.sh"; sourceTree = "<group>"; };
-		E29DBD71B94AEDC01AA09D5A83CD5D59 /* OTRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTRoute.xcconfig; sourceTree = "<group>"; };
-		E601DEF5A77EBF3A73A96B8D02AD0F98 /* OTRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTRoute.modulemap; sourceTree = "<group>"; };
-		F791844CAFCBCE84DC59068034C7B1AD /* Pods_OTRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E420534E0FD0DAA7F8CDE0098D5C4EDB /* OTExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTExtension.xcconfig; sourceTree = "<group>"; };
+		F31A7BFDA140F048C9C4A0C80DBEB0AF /* OTExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTExtension-dummy.m"; sourceTree = "<group>"; };
+		FB613A2A2E664DCE20B28F642CBFAE5D /* OTMacro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTMacro-umbrella.h"; sourceTree = "<group>"; };
+		FCC44404EE7336BCE906B65ECC444FAE /* OTRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTRoute.xcconfig; sourceTree = "<group>"; };
+		FEF627BD19E4DB7FE32905DAF8B29405 /* OTRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTRoute.framework; path = OTRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1010406016E4E962AC2F92503264CB /* OTEn.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = OTEn.strings; path = OTExtension/Classes/language.bundle/OTEn.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,41 +161,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BDA4DBE0AFFC0BB1FC91FD619C997FD /* Frameworks */ = {
+		166AC1E414D90412914D137CC5EE778C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				560C3EC649519F0A2363A298E778622E /* Foundation.framework in Frameworks */,
+				D66228DC2593E204D4070F77D17E9C6F /* Foundation.framework in Frameworks */,
+				3D29DCF0ABC1C73F85EBFDACBE9F2472 /* OTMacro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3843835065A2ABEE540B50185AB4610B /* Frameworks */ = {
+		35C2E7E35EDB997596EB9DF336A4E2F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01823F31793A5E7E5C67F5882A0BB298 /* Foundation.framework in Frameworks */,
+				C856C634901973FCCB857F994F9A578C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8644CA0D47FD30F31C5B8C212BD70CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179F2B40BE1538CC8A5121DDB1F04222 /* Foundation.framework in Frameworks */,
+				2CE20F296597A83FFA82C2AA8D3C3300 /* OTExtension.framework in Frameworks */,
+				6CC0101412983939855C032FE1497736 /* OTMacro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42339E93086947D9E4F506AA6C3DD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F952CFF2152B5BD07344242E256533C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E648AB4F3F28DB99C5A8BF4F6D166518 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15DE86BE13659CF8DE82EE44689B2F52 /* Development Pods */ = {
+		25FBDCDBF30B370AA157F7704D0637E3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F197768A634FE0EAA35FFDD586855CF /* OTRoute */,
+				637B7E0357E49155DA68316B6CFAC3F5 /* Info.plist */,
+				B9B4BA7DF1DE869062ECCDA33298AAB5 /* OTMacro.modulemap */,
+				07CC04EFEC6E2C2138932DDE92FB48D9 /* OTMacro.xcconfig */,
+				0CC282418F144EEB5565D68992993C2E /* OTMacro-dummy.m */,
+				13A52B4C19C5FA5B156F7BC7C2CCF150 /* OTMacro-prefix.pch */,
+				FB613A2A2E664DCE20B28F642CBFAE5D /* OTMacro-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/OTMacro";
 			sourceTree = "<group>";
 		};
-		1F197768A634FE0EAA35FFDD586855CF /* OTRoute */ = {
+		2B0225DE9DDA7BD19F27855F6FB556EB /* OTRoute */ = {
 			isa = PBXGroup;
 			children = (
-				54F3C4C345668220C1A980AAC6103DBC /* OTRoute.swift */,
-				D68B7047FDA89EEB9AB0AC4F0241ADD1 /* Support Files */,
+				30B3012E1C40830C9863FCB43006922F /* OTRoute.swift */,
+				D9362EE3DD22E4CA4FF5DF26AA7AE5C5 /* Support Files */,
 			);
 			name = OTRoute;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		2B8A062F4BFDE3ECBF3DB0FE0913D784 /* OTMacro */ = {
+			isa = PBXGroup;
+			children = (
+				581FFD29B58B9031DE1C9E2E39E91EF5 /* OTMacro.swift */,
+				25FBDCDBF30B370AA157F7704D0637E3 /* Support Files */,
+			);
+			name = OTMacro;
+			path = OTMacro;
+			sourceTree = "<group>";
+		};
+		4807FEBAC4A4805AD057674136AD8128 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4237FE654478EF7D83DFB6D2BE59A9A3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B4AA0D36E93BC84F6843AB5BE163665 /* OTExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D82B32EB03E46BC0120487CB86F566FE /* OTBundleExtension.swift */,
+				5F22CDAA111822326ABBCF423570A791 /* OTColorExtension.swift */,
+				FF1010406016E4E962AC2F92503264CB /* OTEn.strings */,
+				AAC6B88415231592368CC8E2A2F21604 /* OTExtensionLocation.swift */,
+				AAFDCA02346772C7499BFB4C6DDAA2C6 /* OTHans.strings */,
+				6CDE679F1BB2EFA496BAF70D227A4680 /* Root.plist */,
+				95087D11A04CE244599B3D73DF114F8A /* Root.strings */,
+				894270DB9C96352EF6E453EC29E1ED41 /* Resources */,
+				97B91AC16E0E1DA88BBF1E4996AF359F /* Support Files */,
+			);
+			name = OTExtension;
+			path = OTExtension;
 			sourceTree = "<group>";
 		};
 		6443A7D36CD39CEBF0F8BE03790C6A7D /* Pods-OTRoute_Example */ = {
@@ -128,25 +283,39 @@
 			path = "Target Support Files/Pods-OTRoute_Example";
 			sourceTree = "<group>";
 		};
-		7B790BCF3CE17FAF1ABA73FB5F474D10 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				06BEE76CD778CBDAEA277696B18E2408 /* OTRoute.framework */,
-				041C455BD9FF6B2A3D34115AEAF7393E /* Pods_OTRoute_Example.framework */,
-				F791844CAFCBCE84DC59068034C7B1AD /* Pods_OTRoute_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				15DE86BE13659CF8DE82EE44689B2F52 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7B790BCF3CE17FAF1ABA73FB5F474D10 /* Products */,
+				BF945F130F6ADFCD8C4928A6ED02CCF6 /* Development Pods */,
+				EEAB97AEADE3F3852250A82D64A2E59D /* Frameworks */,
+				BC87F14C8B331EB2B17242F145D7048F /* Pods */,
+				9F486F398014A14F3B26C25A4A981737 /* Products */,
 				9BC5A6E1B3485C671436974955BF571F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		894270DB9C96352EF6E453EC29E1ED41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36D6BD3B9FC248584E16655481EB52BA /* language.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		97B91AC16E0E1DA88BBF1E4996AF359F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBE06EAA3F2747CEA37318424D1C79A0 /* Info.plist */,
+				2AD10BA46AC2697C4F25D847F17217EF /* OTExtension.modulemap */,
+				E420534E0FD0DAA7F8CDE0098D5C4EDB /* OTExtension.xcconfig */,
+				F31A7BFDA140F048C9C4A0C80DBEB0AF /* OTExtension-dummy.m */,
+				A8130F734BF57175E36B401F3BF84DEA /* OTExtension-prefix.pch */,
+				9466AAAEEDB364EEC5D7187FCAA093BF /* OTExtension-umbrella.h */,
+				B2B4A28CCD65A8D828CD5281B2535E51 /* ResourceBundle-OTExtension-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OTExtension";
 			sourceTree = "<group>";
 		};
 		9BC5A6E1B3485C671436974955BF571F /* Targets Support Files */ = {
@@ -158,31 +327,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9F486F398014A14F3B26C25A4A981737 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				1F1DFD3F6D209442B66198E908B5A240 /* OTExtension.bundle */,
+				CCC3B881DA22B06DD42C5D7AD3753A6E /* OTExtension.framework */,
+				A175D80712A28FDE4795EC61F310576B /* OTMacro.framework */,
+				FEF627BD19E4DB7FE32905DAF8B29405 /* OTRoute.framework */,
+				8384C21C6F9B52E93F2B154EDC421CC1 /* Pods_OTRoute_Example.framework */,
+				48FEB646EAEB6149AB5145B989F5A9AA /* Pods_OTRoute_Tests.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		BC87F14C8B331EB2B17242F145D7048F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				4B4AA0D36E93BC84F6843AB5BE163665 /* OTExtension */,
+				2B8A062F4BFDE3ECBF3DB0FE0913D784 /* OTMacro */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		D68B7047FDA89EEB9AB0AC4F0241ADD1 /* Support Files */ = {
+		BF945F130F6ADFCD8C4928A6ED02CCF6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA33E5807E46B04D5C89DBCA497C0B2D /* Info.plist */,
-				E601DEF5A77EBF3A73A96B8D02AD0F98 /* OTRoute.modulemap */,
-				E29DBD71B94AEDC01AA09D5A83CD5D59 /* OTRoute.xcconfig */,
-				0F4A5082ECA7F0EDA49030B7FDF452AE /* OTRoute-dummy.m */,
-				2EF74868C9B35F8C66FCEBEA077B9CAF /* OTRoute-prefix.pch */,
-				82EFD107FE095A622A6DB3A83212AAAC /* OTRoute-umbrella.h */,
+				2B0225DE9DDA7BD19F27855F6FB556EB /* OTRoute */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D9362EE3DD22E4CA4FF5DF26AA7AE5C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA787703557B2E465BC2279CA0121CA3 /* Info.plist */,
+				2C20D63266C577AF1603A5F2CEFE0AD6 /* OTRoute.modulemap */,
+				FCC44404EE7336BCE906B65ECC444FAE /* OTRoute.xcconfig */,
+				4F1132809E35572267551CEDD2354C32 /* OTRoute-dummy.m */,
+				0AF344EC2339D6F7652377EE8E683DA9 /* OTRoute-prefix.pch */,
+				C140EBE6A5220314A67E9E684DE07E47 /* OTRoute-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/OTRoute";
@@ -206,9 +389,27 @@
 			path = "Target Support Files/Pods-OTRoute_Tests";
 			sourceTree = "<group>";
 		};
+		EEAB97AEADE3F3852250A82D64A2E59D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D681EB248537B8235A61430F3D5EE39 /* OTExtension.framework */,
+				78CF1248F68B692D28A0A048B02533D0 /* OTMacro.framework */,
+				4807FEBAC4A4805AD057674136AD8128 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		100133316F915E161BE98EA9C7B34702 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF783B0587555F92600A72E88358EB62 /* OTRoute-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		174A93E0BFE919439B27E33BB45AD2D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,58 +418,124 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9198855DCBAFDEE1BB241A6BFA54351B /* Headers */ = {
+		933F23DE2D0E4A32FD9175601BF806A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDBD99CB2FF600EFF72ECA0E9DB56074 /* OTRoute-umbrella.h in Headers */,
+				9EDED242AC71EB7A7A612DEF4F3286F6 /* Pods-OTRoute_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFFD73E4730B25B9D5282C47D865E20F /* Headers */ = {
+		B66E52355C054614F1121B8E77EA8FB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6043B54479FAF114551DFBA819951ED /* Pods-OTRoute_Example-umbrella.h in Headers */,
+				80ADEE6A01BEF97F3B882438234B9F18 /* OTExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14ECC5EF4D8D2B1D6943B172845A488 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFCBF71CDFB522BD64AAE78562F9164 /* OTMacro-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		047B95229BFDA8992CF017920FC0DEC6 /* OTRoute */ = {
+		1CA034E31C6C5BA456BE19CF5852B03B /* Pods-OTRoute_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F441895DD78AD750CF5868E020A4B786 /* Build configuration list for PBXNativeTarget "OTRoute" */;
+			buildConfigurationList = 409945DCC502C7F01DF7DA04051F810A /* Build configuration list for PBXNativeTarget "Pods-OTRoute_Example" */;
 			buildPhases = (
-				C177F6D47CD83B33EDC6CB63C16E6C80 /* Sources */,
-				3843835065A2ABEE540B50185AB4610B /* Frameworks */,
-				9198855DCBAFDEE1BB241A6BFA54351B /* Headers */,
+				08D4AD696E7E2780EB4677B5B0C2BA0C /* Sources */,
+				35C2E7E35EDB997596EB9DF336A4E2F5 /* Frameworks */,
+				933F23DE2D0E4A32FD9175601BF806A6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = OTRoute;
-			productName = OTRoute;
-			productReference = 06BEE76CD778CBDAEA277696B18E2408 /* OTRoute.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		0AC0873347E3F7A183CCEFC06C4C54E0 /* Pods-OTRoute_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60A3931D9BA0261D605394C7E913B900 /* Build configuration list for PBXNativeTarget "Pods-OTRoute_Example" */;
-			buildPhases = (
-				55944EC012D0201F105DBAA7FC9B2809 /* Sources */,
-				1BDA4DBE0AFFC0BB1FC91FD619C997FD /* Frameworks */,
-				BFFD73E4730B25B9D5282C47D865E20F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F3701F4D7C97C445D25FC8BFA12B279D /* PBXTargetDependency */,
+				9283381BC91CDB365A70DC44086354BB /* PBXTargetDependency */,
+				3D85D0D1B72EA91334466304290AD688 /* PBXTargetDependency */,
+				34546401851B69976AEF951DBC5C9E11 /* PBXTargetDependency */,
 			);
 			name = "Pods-OTRoute_Example";
 			productName = "Pods-OTRoute_Example";
-			productReference = 041C455BD9FF6B2A3D34115AEAF7393E /* Pods_OTRoute_Example.framework */;
+			productReference = 8384C21C6F9B52E93F2B154EDC421CC1 /* Pods_OTRoute_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27AAB91F5342A1C6DDD9B506038260CE /* OTMacro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273A73D40506367A82873BDA0D447FA2 /* Build configuration list for PBXNativeTarget "OTMacro" */;
+			buildPhases = (
+				041A9B39E9687025D095B0094D766714 /* Sources */,
+				F952CFF2152B5BD07344242E256533C4 /* Frameworks */,
+				F14ECC5EF4D8D2B1D6943B172845A488 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTMacro;
+			productName = OTMacro;
+			productReference = A175D80712A28FDE4795EC61F310576B /* OTMacro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60AC495818C0CB0FACA8A996A2EB89D3 /* OTExtension-OTExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A540FB72EC92DD5F16D824B3579590 /* Build configuration list for PBXNativeTarget "OTExtension-OTExtension" */;
+			buildPhases = (
+				D16759028BC6ABE4FF3BBC4BDD17A71E /* Sources */,
+				E42339E93086947D9E4F506AA6C3DD21 /* Frameworks */,
+				2687BFC35ED5B3438306D18DDB21AEDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTExtension-OTExtension";
+			productName = "OTExtension-OTExtension";
+			productReference = 1F1DFD3F6D209442B66198E908B5A240 /* OTExtension.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6394D1D1AFA36514A47FEAA13CA045C3 /* OTRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 769AFBFF8167A297FB67E4F85B854FB7 /* Build configuration list for PBXNativeTarget "OTRoute" */;
+			buildPhases = (
+				C2F2E723BC928F7E2DBFE6173D25D77F /* Sources */,
+				8644CA0D47FD30F31C5B8C212BD70CF3 /* Frameworks */,
+				100133316F915E161BE98EA9C7B34702 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BA72F75DB6403A7ABBE97B8E09652F /* PBXTargetDependency */,
+				2F82D446F3FB15F9587D5258456333D5 /* PBXTargetDependency */,
+			);
+			name = OTRoute;
+			productName = OTRoute;
+			productReference = FEF627BD19E4DB7FE32905DAF8B29405 /* OTRoute.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DB7EB2AC156F842D1A508B4CDCF6FBF /* OTExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5139683E32CF55362FC6281A4BC98EE2 /* Build configuration list for PBXNativeTarget "OTExtension" */;
+			buildPhases = (
+				03E82A25631C06EED242C06D762B0900 /* Sources */,
+				166AC1E414D90412914D137CC5EE778C /* Frameworks */,
+				AD54079AC9B63DC304C45FC7CCDA786C /* Resources */,
+				B66E52355C054614F1121B8E77EA8FB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3736F31CCDD79CB624C7DA7428796F /* PBXTargetDependency */,
+				64CD2A91A1E99DD6B62A45414C9E35BA /* PBXTargetDependency */,
+			);
+			name = OTExtension;
+			productName = OTExtension;
+			productReference = CCC3B881DA22B06DD42C5D7AD3753A6E /* OTExtension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		74341F8A6AA2E13FE790073560FE8E6B /* Pods-OTRoute_Tests */ = {
@@ -285,7 +552,7 @@
 			);
 			name = "Pods-OTRoute_Tests";
 			productName = "Pods-OTRoute_Tests";
-			productReference = F791844CAFCBCE84DC59068034C7B1AD /* Pods_OTRoute_Tests.framework */;
+			productReference = 48FEB646EAEB6149AB5145B989F5A9AA /* Pods_OTRoute_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -305,23 +572,69 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7B790BCF3CE17FAF1ABA73FB5F474D10 /* Products */;
+			productRefGroup = 9F486F398014A14F3B26C25A4A981737 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				047B95229BFDA8992CF017920FC0DEC6 /* OTRoute */,
-				0AC0873347E3F7A183CCEFC06C4C54E0 /* Pods-OTRoute_Example */,
+				6DB7EB2AC156F842D1A508B4CDCF6FBF /* OTExtension */,
+				60AC495818C0CB0FACA8A996A2EB89D3 /* OTExtension-OTExtension */,
+				27AAB91F5342A1C6DDD9B506038260CE /* OTMacro */,
+				6394D1D1AFA36514A47FEAA13CA045C3 /* OTRoute */,
+				1CA034E31C6C5BA456BE19CF5852B03B /* Pods-OTRoute_Example */,
 				74341F8A6AA2E13FE790073560FE8E6B /* Pods-OTRoute_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2687BFC35ED5B3438306D18DDB21AEDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD05C454891F83847DC1D6E55D6F617 /* language.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD54079AC9B63DC304C45FC7CCDA786C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4341908A45126FFBFBDD67786797672 /* OTExtension.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		55944EC012D0201F105DBAA7FC9B2809 /* Sources */ = {
+		03E82A25631C06EED242C06D762B0900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA1D458B27ACF716B334050BE46C0F4 /* Pods-OTRoute_Example-dummy.m in Sources */,
+				EB0411DB797E252A11C9584891736778 /* OTBundleExtension.swift in Sources */,
+				4D92D1D903347EBCC69A50837B7ABF3F /* OTColorExtension.swift in Sources */,
+				5F8DBE033737079D7268E1E84C9CCF6D /* OTEn.strings in Sources */,
+				DF0F7FF4A44ED5AF40F6C5FC9BEB490F /* OTExtension-dummy.m in Sources */,
+				7442A91A55E82A427ACAC8D12D57C20C /* OTExtensionLocation.swift in Sources */,
+				85B1F0F8FA508AE0C8B0AA1F479F7865 /* OTHans.strings in Sources */,
+				EF77B9BEF0FE51A2530C7B21DA7BE865 /* Root.plist in Sources */,
+				8CDAE47932B377D9602241F6F15313B0 /* Root.strings in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041A9B39E9687025D095B0094D766714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBBC77C53424ECA3A5E163EEF7B25AB /* OTMacro-dummy.m in Sources */,
+				D14A1F563058C63E087D50821A16BC52 /* OTMacro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D4AD696E7E2780EB4677B5B0C2BA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE114055696619716D52E86006C9709 /* Pods-OTRoute_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,27 +646,179 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C177F6D47CD83B33EDC6CB63C16E6C80 /* Sources */ = {
+		C2F2E723BC928F7E2DBFE6173D25D77F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BE54B413F8273A599DEA15EAC4E09E9 /* OTRoute-dummy.m in Sources */,
-				EFF0C9E9005824DAAC454A360D69BCAE /* OTRoute.swift in Sources */,
+				6AD394B61650EECB7FC15B09DF89DC65 /* OTRoute-dummy.m in Sources */,
+				AAE557F509C3B45752A60FA36E7BA28B /* OTRoute.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16759028BC6ABE4FF3BBC4BDD17A71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F3701F4D7C97C445D25FC8BFA12B279D /* PBXTargetDependency */ = {
+		0D3736F31CCDD79CB624C7DA7428796F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OTExtension-OTExtension";
+			target = 60AC495818C0CB0FACA8A996A2EB89D3 /* OTExtension-OTExtension */;
+			targetProxy = 94C24DE407ACC92FB905591B6DAF164B /* PBXContainerItemProxy */;
+		};
+		26BA72F75DB6403A7ABBE97B8E09652F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTExtension;
+			target = 6DB7EB2AC156F842D1A508B4CDCF6FBF /* OTExtension */;
+			targetProxy = 41311E8019786F177CEFD62091DB73AA /* PBXContainerItemProxy */;
+		};
+		2F82D446F3FB15F9587D5258456333D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 27AAB91F5342A1C6DDD9B506038260CE /* OTMacro */;
+			targetProxy = 752EF2C4215378E66BB5F6D1C5E490C2 /* PBXContainerItemProxy */;
+		};
+		34546401851B69976AEF951DBC5C9E11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OTRoute;
-			target = 047B95229BFDA8992CF017920FC0DEC6 /* OTRoute */;
-			targetProxy = 85A357904302D20E5EF934502754C0FD /* PBXContainerItemProxy */;
+			target = 6394D1D1AFA36514A47FEAA13CA045C3 /* OTRoute */;
+			targetProxy = 1E88489E6874076B4E087134B7EF0478 /* PBXContainerItemProxy */;
+		};
+		3D85D0D1B72EA91334466304290AD688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 27AAB91F5342A1C6DDD9B506038260CE /* OTMacro */;
+			targetProxy = 6307AA969667583649A7996FE5570156 /* PBXContainerItemProxy */;
+		};
+		64CD2A91A1E99DD6B62A45414C9E35BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTMacro;
+			target = 27AAB91F5342A1C6DDD9B506038260CE /* OTMacro */;
+			targetProxy = C7C78E09950FFE692FCF51F54737EF49 /* PBXContainerItemProxy */;
+		};
+		9283381BC91CDB365A70DC44086354BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTExtension;
+			target = 6DB7EB2AC156F842D1A508B4CDCF6FBF /* OTExtension */;
+			targetProxy = 9C3018EF55296F70E6BED3C877F67EA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		95087D11A04CE244599B3D73DF114F8A /* Root.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B799B5EB7C628EA8FD6E3CEA3766E0 /* Root.strings */,
+			);
+			name = Root.strings;
+			path = OTExtension/Classes/language.bundle;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		0650F9561021D700946F53B85F953A72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9714D5447D1606A2053DAEDB7D74E8 /* Pods-OTRoute_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OTRoute_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OTRoute_Example/Pods-OTRoute_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OTRoute_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		079D2E76E0F7B48BD777199E287F0851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E420534E0FD0DAA7F8CDE0098D5C4EDB /* OTExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTExtension/OTExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTExtension/OTExtension.modulemap";
+				PRODUCT_NAME = OTExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1919E772B6B4C493E455EB5C3A8A2339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E420534E0FD0DAA7F8CDE0098D5C4EDB /* OTExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTExtension/OTExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTExtension/OTExtension.modulemap";
+				PRODUCT_NAME = OTExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1C1F64F02FA9244E60AA325AD17F228B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A7DF725AB18245A0EF3CC6BBD98716AE /* Pods-OTRoute_Tests.debug.xcconfig */;
@@ -386,9 +851,9 @@
 			};
 			name = Debug;
 		};
-		299E733B52C9EB4D8EB376AC0E52171E /* Release */ = {
+		27ECAF5269BBDAD751F84010F46E5DE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E29DBD71B94AEDC01AA09D5A83CD5D59 /* OTRoute.xcconfig */;
+			baseConfigurationReference = FCC44404EE7336BCE906B65ECC444FAE /* OTRoute.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -409,12 +874,27 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C9EFFF093C4699D24788491315F28C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E420534E0FD0DAA7F8CDE0098D5C4EDB /* OTExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OTExtension";
+				INFOPLIST_FILE = "Target Support Files/OTExtension/ResourceBundle-OTExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OTExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -572,41 +1052,23 @@
 			};
 			name = Release;
 		};
-		91B0541667C56052A7E6F354807D47ED /* Release */ = {
+		85E353434E50D4D620D54C3ED1AFA13B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F9714D5447D1606A2053DAEDB7D74E8 /* Pods-OTRoute_Example.release.xcconfig */;
+			baseConfigurationReference = E420534E0FD0DAA7F8CDE0098D5C4EDB /* OTExtension.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OTRoute_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OTRoute_Example/Pods-OTRoute_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OTRoute_Example;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OTExtension";
+				INFOPLIST_FILE = "Target Support Files/OTExtension/ResourceBundle-OTExtension-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = OTExtension;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		E83E961F6E735C9A1A8794FCB37D81FF /* Debug */ = {
+		BCBDD7F50821EC2564FCBB847CBB8D7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 10C85AAD2167C8462A2B4F0C0C803C7B /* Pods-OTRoute_Example.debug.xcconfig */;
 			buildSettings = {
@@ -640,9 +1102,72 @@
 			};
 			name = Debug;
 		};
-		EC6BA8A9A1B1E7B864C8A0EAFE4BBEA6 /* Debug */ = {
+		D4FD6D4568BCAF030A752CA5969D1FB8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E29DBD71B94AEDC01AA09D5A83CD5D59 /* OTRoute.xcconfig */;
+			baseConfigurationReference = 07CC04EFEC6E2C2138932DDE92FB48D9 /* OTMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTMacro/OTMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTMacro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTMacro/OTMacro.modulemap";
+				PRODUCT_NAME = OTMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB99BA3DC92B3E02FE82CAD9FD7E5676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CC04EFEC6E2C2138932DDE92FB48D9 /* OTMacro.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTMacro/OTMacro-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTMacro/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OTMacro/OTMacro.modulemap";
+				PRODUCT_NAME = OTMacro;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F378294F115617307145F09BD52C96F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC44404EE7336BCE906B65ECC444FAE /* OTRoute.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -663,17 +1188,36 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		11A540FB72EC92DD5F16D824B3579590 /* Build configuration list for PBXNativeTarget "OTExtension-OTExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85E353434E50D4D620D54C3ED1AFA13B /* Debug */,
+				4C9EFFF093C4699D24788491315F28C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273A73D40506367A82873BDA0D447FA2 /* Build configuration list for PBXNativeTarget "OTMacro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB99BA3DC92B3E02FE82CAD9FD7E5676 /* Debug */,
+				D4FD6D4568BCAF030A752CA5969D1FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -683,11 +1227,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60A3931D9BA0261D605394C7E913B900 /* Build configuration list for PBXNativeTarget "Pods-OTRoute_Example" */ = {
+		409945DCC502C7F01DF7DA04051F810A /* Build configuration list for PBXNativeTarget "Pods-OTRoute_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E83E961F6E735C9A1A8794FCB37D81FF /* Debug */,
-				91B0541667C56052A7E6F354807D47ED /* Release */,
+				BCBDD7F50821EC2564FCBB847CBB8D7A /* Debug */,
+				0650F9561021D700946F53B85F953A72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5139683E32CF55362FC6281A4BC98EE2 /* Build configuration list for PBXNativeTarget "OTExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1919E772B6B4C493E455EB5C3A8A2339 /* Debug */,
+				079D2E76E0F7B48BD777199E287F0851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		769AFBFF8167A297FB67E4F85B854FB7 /* Build configuration list for PBXNativeTarget "OTRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ECAF5269BBDAD751F84010F46E5DE5 /* Debug */,
+				F378294F115617307145F09BD52C96F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -697,15 +1259,6 @@
 			buildConfigurations = (
 				1C1F64F02FA9244E60AA325AD17F228B /* Debug */,
 				6CA86BDCC273E13194E7DB62B2DD0AC5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F441895DD78AD750CF5868E020A4B786 /* Build configuration list for PBXNativeTarget "OTRoute" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC6BA8A9A1B1E7B864C8A0EAFE4BBEA6 /* Debug */,
-				299E733B52C9EB4D8EB376AC0E52171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
